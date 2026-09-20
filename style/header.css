@@ -1,0 +1,33 @@
+header{
+    margin: 0.7em 3em;
+}
+
+.header__barra{
+    display: flex;
+    gap: 16px;
+}
+
+.header__img{
+    margin: 22px 400px 22px 100px;
+    align-items: center;
+}
+
+.header__texto{
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 25px 8px;
+}
+
+.header__texto:hover{
+    color: #0000;
+}
+
+.header__botao{
+    background-color: var(--preto);
+    color: var(--cinza-claro);
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 20px 5px;
+    padding: 10px;
+}

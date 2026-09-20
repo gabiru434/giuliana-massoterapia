@@ -1,0 +1,23 @@
+@import url(./header.css);
+@import url(./main_inicio.css);
+/*Fontes Google*/
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root{
+    --branco: #ffff;
+    --preto:#2E342E;
+    --bege: #E9DAC3;
+    --cinza-claro: #E2E4D7;
+    --verde--envelhecido: #AFB695;
+    --bege-escuro: #B99772;
+    --marrom-quente:#C17B48;
+    --fonte-titulo: "Abhaya Libre", serif;
+    --fonte-texto: "Lato", sans-serif;
+}
+
+body{
+    background-color: var(--cinza-claro);
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+}
