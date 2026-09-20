@@ -8,26 +8,22 @@ header{
 }
 
 .header__img{
-    margin: 22px 400px 22px 100px;
+    margin: 23px 400px 22px 100px;
     align-items: center;
 }
 
 .header__texto{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     justify-content: space-between;
-    margin: 25px 8px;
-}
-
-.header__texto:hover{
-    color: #0000;
+    margin: 30.5px 8px;
+    color: var(--preto);
 }
 
 .header__botao{
     background-color: var(--preto);
     color: var(--cinza-claro);
-    padding: 0.5em;
     border-radius: 1em;
-    margin: 20px 5px;
-    padding: 10px;
+    margin: 14.5px 0px;
+    padding: 16px 20px;
 }
