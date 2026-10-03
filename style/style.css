@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./main_inicio.css);
+@import url(./main-frase.css);
 /*Fontes Google*/
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -23,6 +24,7 @@ body{
     background-color: var(--cinza-claro);
     color: var(--preto);
     font-family: var(--fonte-texto);
+    font-size: 16px;
 }
 
 .hero{
