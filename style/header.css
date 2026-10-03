@@ -1,10 +1,19 @@
 header{
-    margin: 0.7em 3em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease;
 }
 
 .header__barra{
     display: flex;
-    gap: 16px;
+    gap: 16px;    
+    background: var(--cinza-claro);
+}
+
+.header__barra.scrolled  {
+    background-color: var(--cinza-transparencia);
+    backdrop-filter: blur(10px); 
 }
 
 .header__img{
@@ -16,14 +25,12 @@ header{
     font-size: 16px;
     font-weight: 400;
     justify-content: space-between;
-    margin: 30.5px 8px;
+    margin: 30px 8px;
     color: var(--preto);
 }
 
 .header__botao{
     background-color: var(--preto);
     color: var(--cinza-claro);
-    border-radius: 1em;
-    margin: 14.5px 0px;
-    padding: 16px 20px;
+    font-weight: 400;
 }

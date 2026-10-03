@@ -7,8 +7,11 @@
 :root{
     --branco: #ffff;
     --preto:#2E342E;
+    --preto-texto: #202520;
     --bege: #E9DAC3;
+    --cinza-texto: #BFC0BF;
     --cinza-claro: #E2E4D7;
+    --cinza-transparencia: #e2e4d7af;
     --verde--envelhecido: #AFB695;
     --bege-escuro: #B99772;
     --marrom-quente:#C17B48;
@@ -21,3 +24,16 @@ body{
     color: var(--preto);
     font-family: var(--fonte-texto);
 }
+
+.hero{
+    background-image: url('/assets/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botao{
+    font-weight: 16px;
+    border-radius: 10px;
+    margin: 14.5px 0px;
+    padding: 16px 20px;
+    text-decoration: none;}

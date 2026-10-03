@@ -1,5 +1,47 @@
 .main_inicio{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
+    gap: 10px;
+    padding: 7em 40em 20em 7em;
+    color: var(--preto-texto);
+
+        .inicio-titulo{
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 118%;
+        }
+
+        .inicio-texto{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 123%;
+            padding-right: 50%;
+        }
+
+        .inicio-subtitulo{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 123%;
+        }
+
+        .inicio-botoes{
+            display: flex;
+            gap: 27px;
+        }
+        
+        .agende_botao{
+            color: var(--cinza-texto);
+            background-color: var(--preto-texto);
+            font-weight: 700;
+            padding: 20px;
+        }
+
+        .saiba_mais_botao{
+            color: var(--preto-texto);
+            border: 1px solid var(--preto);
+            font-weight: 400;
+            padding: 20px 50px;
+        }
 }
