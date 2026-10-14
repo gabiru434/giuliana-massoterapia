@@ -1,0 +1,103 @@
+.esculpe-linha{
+    display: flex;
+    gap: 122px;
+    padding: 15px;
+    padding-left: 140px;
+    background-color: var(--verde-envelhecido);
+
+    .esculpe-linha-texto{
+        color: var(--cinza-transparencia2);
+        font-size: 27px;
+        font-weight: 400;
+    }
+}
+
+.esculpe{
+    background-image: url('/assets/fundo_esculpe.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    color: var(--branco-texto);
+    padding: 100px;
+
+    .esculpe-main{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .esculpe-textos{
+        margin: 30px 0px 0px 195px;
+
+            .esculpe-apoiotitulo{
+                font-family: var(--fonte-texto);
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 54px;
+            }
+
+            .esculpe-titulo{
+                font-family: var(--fonte-titulo);
+                font-weight: 800;
+                font-size: 64px;
+                line-height: 54px;
+                margin-bottom: 20;
+            }
+
+            .esculpe-texto{
+                margin: 20px 0;
+                padding-right: 50px;
+            }                
+            .texto-baixo{
+                padding-bottom: 20px;
+            }
+
+            .esculpe-botao{
+                background-color: var(--verde-claro);
+                color: var(--preto-texto);
+                font-weight: 600;
+                line-height: 100%;
+                margin-top: 200px;
+            }
+        }
+
+
+        .esculpe-imagens{
+            display: flex;
+            flex-direction: row;
+            gap: 26px;
+
+            .esculpe-img{
+            border-radius: 30px;
+            height: 415px;
+            box-shadow: 0 4px 12px #00000036;
+            }
+        }
+    }
+
+    .esculpe-icones{
+        margin: -100px;
+        margin-top: 1px;
+
+        .esculpe-icones-texto{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin: 100px;
+            margin-top: -140px;
+            padding: 0 85px;
+
+            .esculpe-texto2{
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 166px;
+                height: 78px;
+                background-color: var(--verde-escuro);
+                border-radius: 12px;
+                padding: 7px;
+            }
+        }
+        
+    }
+    
+}

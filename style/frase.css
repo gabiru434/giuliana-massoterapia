@@ -1,10 +1,10 @@
-.main-frase{
+.frase{
     background-image: url(/assets/velas.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 7em 30em 30em 7em;
+    background-size: cover;
+    padding: 10em 30em 12em 7em;
 
-    .frase-titulo{
+    .frase_titulo{
         font-family: var(--fonte-titulo);
         font-weight: 800;
         font-size: 40px;
@@ -12,10 +12,16 @@
         margin-bottom: 23px;
     }
 
-    .frase-texto{
+    .frase_texto{
         font-weight: 400;
         line-height: 123%;
         margin-bottom: 12px;
         padding-right: 41%;
+    }
+
+    .frase_subtitulo{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 123%;
     }
 }

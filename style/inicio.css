@@ -1,11 +1,14 @@
-.main_inicio{
+.inicio{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 7em 40em 20em 7em;
+    padding: 112px 600px 105px 112px;
     color: var(--preto-texto);
+    background-image: url('/assets/herov3.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
 
         .inicio-titulo{
             font-size: 50px;

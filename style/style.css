@@ -1,21 +1,32 @@
 @import url(./header.css);
-@import url(./main_inicio.css);
-@import url(./main-frase.css);
+@import url(./inicio.css);
+@import url(./frase.css);
+@import url(./esculpe.css);
 /*Fontes Google*/
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
 :root{
     --branco: #ffff;
+    --branco-texto:#F3F4EC;
+
     --preto:#2E342E;
     --preto-texto: #202520;
+
     --bege: #E9DAC3;
+    --bege-escuro: #B99772;
+
     --cinza-texto: #BFC0BF;
     --cinza-claro: #E2E4D7;
     --cinza-transparencia: #e2e4d7af;
-    --verde--envelhecido: #AFB695;
-    --bege-escuro: #B99772;
+    --cinza-transparencia2: #e2e4d783;
+
+    --verde-envelhecido: #AFB695;
+    --verde-claro: #EBF3BE;
+    --verde-escuro:#20252050;
+
     --marrom-quente:#C17B48;
+
     --fonte-titulo: "Abhaya Libre", serif;
     --fonte-texto: "Lato", sans-serif;
 }
@@ -25,12 +36,8 @@ body{
     color: var(--preto);
     font-family: var(--fonte-texto);
     font-size: 16px;
-}
-
-.hero{
-    background-image: url('/assets/hero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 
 .botao{
@@ -39,3 +46,11 @@ body{
     margin: 14.5px 0px;
     padding: 16px 20px;
     text-decoration: none;}
+
+.texto{
+    font-family: var(--fonte-texto);
+    color: var(--branco-texto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123%;
+}
