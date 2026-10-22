@@ -3,6 +3,9 @@
 @import url(./frase.css);
 @import url(./esculpe.css);
 @import url(./depoimentos.css);
+@import url(./frase-dois.css);
+@import url(./sobre-mim.css);
+@import url(./outros-servicos.css);
 /*Fontes Google*/
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -46,7 +49,15 @@ body{
     border-radius: 10px;
     margin: 14.5px 0px;
     padding: 16px 20px;
-    text-decoration: none;}
+    text-decoration: none;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+    color: var(--cinza-claro);
+    font-size: 64px;
+}
 
 .texto{
     font-family: var(--fonte-texto);

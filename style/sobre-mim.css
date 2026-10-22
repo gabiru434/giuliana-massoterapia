@@ -1,0 +1,24 @@
+.sobre-mim{
+    background-image: url('/assets/fundo_sobre_mim.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--bege-escuro);
+    display: flex;
+    flex-direction: column;
+    padding: 130px 163px 130px 700px;
+    color: var(--cinza-claro);
+
+    .sobre-mim-titulo{
+        line-height: 118%;
+    }
+
+    .sobre-mim-subtitulo{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+    .sobre-mim-texto{
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,43 @@
+.frase-dois{
+    background-image: url('/assets/fundo-frase2v2.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--bege-escuro);
+    display: flex;
+    padding: 50px 60px;
+    color: var(--cinza-claro);
+
+    .frase-dois-frases{
+        padding: 100px 30px;
+
+        .frase-dois-titulo{
+            line-height: 92%;
+            margin-bottom: 14px;
+        }
+
+        .frase-dois-texto{
+            margin: 20px 80px 20px 0;
+        }
+
+        .frase-dois-subtitulo{
+            font-family: var(--fonte-texto);
+            color: var(--branco-texto);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 116%;
+        }
+        
+        
+    }
+    .frase-dois-img{
+            margin-top: 100px;
+            margin-right: 40px;
+            width: 583px;
+            height: 392px;
+            border-radius: 23px;
+            box-shadow: 0 4px 12px #00000036;
+        }
+}
+
+
+
