@@ -1,0 +1,112 @@
+.flor{
+    padding-top: 250px;
+    margin-left: 300px;
+    width: 55%;
+}
+
+.formulario{
+    background-color: var(--verde-envelhecido);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    column-gap: 80px;
+    color: var(--preto-texto);
+    padding: 160px 9%;
+
+    .formulario-textos{
+        margin-top: 10px;
+
+        .formulario-titulo{
+            font-family: var(--fonte-titulo);
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 118%;
+        }
+
+        .formulario-texto{
+            color: var(--preto-texto);
+            margin-bottom: 140px;
+        }
+
+        .formulario-icone-e-textos{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+
+            .formulario-item{
+                display: flex;
+                align-items: center;
+                gap: 13px;
+                padding: 5px 0;
+
+                .formulario-texto-icone{
+                    color: var(--preto-texto);
+                }
+
+                .formulario-icone{
+                    width: 50px;
+                    height: 50px;
+                } 
+                
+                .formulario-subtitulo{
+                    font-weight: 700;
+                    color: var(--preto-texto);
+                    margin-bottom: 2px;
+                }
+            }   
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 20px 40px;
+        width: 100%;
+
+        label{
+            font-weight: 600;
+            line-height: 123%;
+            font-size: 18px;
+            font-family: var(--fonte-texto);
+            color: var(--preto-texto);
+        }
+
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 13px;
+            border: none;
+            padding: 12px 0px 12px 17px;
+            background-color: var(--cinza-claro);
+            margin-bottom: 15px;
+        }
+
+        #mensagem{
+            padding-bottom: 80px;
+            margin-bottom: 0px;
+        }
+
+        .botao-formulario{
+            width: 100%;
+            border-radius: 13px;
+            border: none;
+            padding: 8px;
+            background-color: var(--cinza-claro);    
+            color: var(--preto-texto);  
+            font-weight: 600;      
+        }
+
+        .botao-formulario:hover{
+            background-color: var(--verde-envelhecido);
+            transition:all 0.3s ease;
+        }
+
+        .img-formulario{
+            width: 95px;
+            height: auto;
+            align-self: flex-end;
+            margin-top: 12px;
+        }
+    }
+}

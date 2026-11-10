@@ -6,6 +6,8 @@
 @import url(./frase-dois.css);
 @import url(./sobre-mim.css);
 @import url(./outros-servicos.css);
+@import url(./duvidas.css);
+@import url(./formulario.css);
 /*Fontes Google*/
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -22,8 +24,10 @@
 
     --cinza-texto: #BFC0BF;
     --cinza-claro: #E2E4D7;
+    --cinza-header: #D9D9D9A1;
     --cinza-transparencia: #e2e4d7af;
     --cinza-transparencia2: #e2e4d783;
+    --cinza-botoes:#CACCBF;
 
     --verde-envelhecido: #AFB695;
     --verde-claro: #EBF3BE;
@@ -45,11 +49,15 @@ body{
 }
 
 .botao{
-    font-weight: 16px;
+    font-size: 16px;
     border-radius: 10px;
     margin: 14.5px 0px;
     padding: 16px 20px;
     text-decoration: none;
+}
+
+#botao-clicado{
+    background-color: #FDFFF4;
 }
 
 .titulo{

@@ -12,10 +12,10 @@
         <header id="header">
             <section class="header__barra">
                 <img class="header__img" src="./assets/logo-header.png" alt="Logo Giuliana Massoterapia" height="35">
-                <p class="header__texto">Esculpe Detox</p>
-                <p class="header__texto">Serviços</p>
-                <p class="header__texto">Sobre Mim</p>
-                <p class="header__texto">Depoimentos</p>
+                <a href="#esculpe" class="header__texto">Esculpe Detox</a>
+                <a href="#sobre-mim" class="header__texto">Sobre Mim</a>
+                <a href="#servicos" class="header__texto">Serviços</a>
+                <a href="#duvidas" class="header__texto">Dúvidas</a>
                 <a class="botao header__botao" href="https://wa.me/+5511965764987?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio">Agendar Horário</a>
             </section>
         </header>
@@ -42,7 +42,7 @@
             <p class="esculpe-linha-texto">Esculpe Detox</p>
             <p class="esculpe-linha-texto">Esculpe Detox</p>
         </div>
-        <section class="esculpe">
+        <section class="esculpe" id="esculpe">
             <div class="esculpe-main">
                 <div class="esculpe-imagens">
                     <img class="esculpe-img" src="/assets/esculpe_giuli.png">
@@ -91,7 +91,7 @@
             </div>
             <img class="frase-dois-img" src="/assets/frase2.jpg">
         </section>
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre-mim">
             <h3 class="titulo sobre-mim-titulo">Sobre Mim</h2>
             <p class="texto sobre-mim-texto">Casada com meu primeiro namorado, mãe do Levi e karateca, construi minha primeira carreira na área administrativa depois de me formar em Secretariado Executivo.</p>
             <p class="texto sobre-mim-texto">Com o nascimento do meu filho, decidi mudar de direção para acompanhar meu crescimento mais de perto. Foi nesse período que encontrei na massoterapia integrativa uma nova forma de cuidar.</p>
@@ -106,7 +106,7 @@
             <p class="os-linha-texto">Outros Serviços</p>
             <p class="os-linha-texto">Outros Serviços</p>
         </div>
-        <section class="outros-servicos">
+        <section class="outros-servicos" id="servicos">
             <h3 class="titulo os-titulo">Outros Serviços</h3>
             <p class="os-subtitulo">Escolha o cuidado que seu corpo está pedindo hoje.</p>
             <p class="texto os-texto">Conte o que você busca, tire suas dúvidas e descubra qual<br> atendimento faz mais sentido para você.</p>
@@ -138,8 +138,91 @@
                 </div>
             </div>
         </section>
-        <section class="duvidas"></section>
-        <section class="formulario"></section>
+        <section class="duvidas" id="duvidas">
+            <h3 class="duvidas-titulo">Ficou com alguma dúvida?</h3>
+
+            <button class="botao duvidas-botao">
+                O Esculpe Detox emagrece?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+
+            <button class="botao duvidas-botao">
+                Quantas sessões são necessárias?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+
+            <button class="botao duvidas-botao">
+                Já consigo perceber diferença na primeira sessão?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+
+            <button class="botao duvidas-botao">
+                O atendimento é dolorido?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+
+            <button class="botao duvidas-botao">
+                Posso fazer mesmo sem estar buscando mudanças estéticas?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+
+            <button class="botao duvidas-botao">
+                Como faço para agendar?
+                <img class="duvidas-icone" src="/assets/abrir.svg" alt="Ícone abrir">
+            </button>
+            
+        </section>
+        <img class="flor" src="/assets/flor-formulario.png">
+        <section class="formulario">
+            <div class="formulario-textos">
+                <h3 class="formulario-titulo">Entre em Contato</h3>
+                <p class="texto formulario-texto">Talvez o que esteja faltando na sua rotina sejam<br> alguns minutos só para você.</p>
+
+                <div class="formulario-icone-e-textos">
+                    <div class="formulario-item">
+                        <img src="/assets/horario.svg" alt="Ícone horário" class="formulario-icone">
+                        <div>
+                            <p class="texto formulario-subtitulo">Horário</p>
+                            <p class="texto formulario-texto-icone">Atendimento com horário marcado</p>
+                        </div>
+                    </div>
+                    
+                    <div class="formulario-item">
+                        <img src="/assets/localizacao.svg" alt="Ícone localização" class="formulario-icone">
+                        <div>                                       
+                            <p class="texto formulario-subtitulo">Localização</p>
+                            <p class="texto formulario-texto-icone">Jardim Luso - São Paulo</p> 
+                        </div>
+                    </div>
+
+                    <div class="formulario-item">
+                        <img src="/assets/insta.svg" alt="Ícone Instagram" class="formulario-icone">       
+                        <div>
+                            <p class="texto formulario-subtitulo">Instagram</p>
+                            <p class="texto formulario-texto-icone">@giuliana_massoterapia</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <form>
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                <label for="telefone">Número de Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Seu número" required>
+
+                <label for="servico">Serviço Desejado</label>
+                <input type="text" id="servico" name="servico" placeholder="Digite o serviço desejado." required>
+
+                <label for="mensagem">Mensagem (opcional)</label>
+                <input type="text" id="mensagem" name="mensagem" placeholder="Conte-nos um pouco mais." required>
+
+                <button class="botao botao-formulario" type="submit">Enviar</button>
+                <img class="img-formulario" src="./assets/logo-header.png" alt="Logo Giuliana Massoterapia">
+            </form>
+            
+        </section>
     </main>
     <footer></footer>
     <script src="/js/index.js"></script>
